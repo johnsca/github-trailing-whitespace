@@ -1,0 +1,10 @@
+{
+  "name": "GitHub Trailing Whitespace",
+  "description": "This extension highlights trailing whitespace on GitHub diffs",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [{
+      "js": ["gh-trailing-ws.user.js"],
+      "matches": ["https://github.com/*"]
+   }]
+}
